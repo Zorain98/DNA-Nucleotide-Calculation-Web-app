@@ -3,7 +3,7 @@ import streamlit as st
 from PIL import Image
 import altair as alt
 
-st.set_page_config(page_title="NucleoCal: DNA Sequence Analyzer", page_icon="🧬", layout='wide')
+st.set_page_config(page_title="NucleoCal", page_icon="🧬", layout='wide')
 image = Image.open('dna_pic.png')
 st.image(image, use_container_width=False, width=150)
 st.write("""
